@@ -75,7 +75,7 @@ trainer = Trainer(
     train_dataset=tokenized_dataset["train"],
     data_collator=data_collator,
 )
-
+# hsz
 # 开始训练
 trainer.train()
 
